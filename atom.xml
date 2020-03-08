@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>龙哥的博客</title>
+  
+  
+  <link href="/fate.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://fatelove.gitee.io/"/>
+  <updated>2020-03-08T01:02:24.566Z</updated>
+  <id>https://fatelove.gitee.io/</id>
+  
+  <author>
+    <name>邓氏一族少主</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo头像设置出错问题</title>
+    <link href="https://fatelove.gitee.io/2020/03/07/hexo%E5%A4%B4%E5%83%8F%E8%AE%BE%E7%BD%AE%E5%87%BA%E9%94%99%E9%97%AE%E9%A2%98/"/>
+    <id>https://fatelove.gitee.io/2020/03/07/hexo%E5%A4%B4%E5%83%8F%E8%AE%BE%E7%BD%AE%E5%87%BA%E9%94%99%E9%97%AE%E9%A2%98/</id>
+    <published>2020-03-07T13:24:13.000Z</published>
+    <updated>2020-03-08T01:02:24.566Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天闲来无事就更新了一下主题，谁知道更新后头像显示不出来了。经过好长好长时间的摸索，终于把这个问题解决了。<br>原来以前的next主题设置头像是设置在url后面的，就像这样<br><img src="https://s2.ax1x.com/2020/03/07/3jyyWV.png" alt="更新前"><br>更新后的主题是直接写在avatar后面的<br><img src="https://s2.ax1x.com/2020/03/07/3jy6zT.png" alt="更新后"><br>虽说问题显得很弱智，但是不注意真的很容易看漏</p><h3 id="希望大家不要像我这样犯这种低级错误"><a href="#希望大家不要像我这样犯这种低级错误" class="headerlink" title="希望大家不要像我这样犯这种低级错误"></a>希望大家不要像我这样犯这种低级错误</h3><h2 id="我又回来了，刚刚生成页面的时候发现菜单栏地址总是多了个"><a href="#我又回来了，刚刚生成页面的时候发现菜单栏地址总是多了个" class="headerlink" title="我又回来了，刚刚生成页面的时候发现菜单栏地址总是多了个 /"></a>我又回来了，刚刚生成页面的时候发现菜单栏地址总是多了个 <code>/</code></h2><p><img src="https://s2.ax1x.com/2020/03/07/3jTfgJ.png" alt="3jTfgJ.png"></p><h3 id="百思不得其解啊，后来在一篇博客看到是因为官方坑人的，原来没更新的时候是这样的"><a href="#百思不得其解啊，后来在一篇博客看到是因为官方坑人的，原来没更新的时候是这样的" class="headerlink" title="百思不得其解啊，后来在一篇博客看到是因为官方坑人的，原来没更新的时候是这样的"></a>百思不得其解啊，后来在一篇博客看到是因为官方坑人的，<br>原来没更新的时候是这样的</h3><figure class="highlight plain"><figcaption><span>/ || home</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#about: &#x2F;about&#x2F; || user</span><br><span class="line">#tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">categories: &#x2F;categories&#x2F;|| th</span><br><span class="line">archives: &#x2F;archives&#x2F;|| archive</span><br></pre></td></tr></table></figure><p>每个/后面有个空格，更新后不支持这种写法了，把空格删掉就OK了<br><img src="https://s2.ax1x.com/2020/03/07/3jTRCF.png" alt="3jTRCF.png"></p><h2 id="不玩了，一天天的什么事儿啊，文档也不写清楚，让我这么晕很好玩吗？睡了睡了"><a href="#不玩了，一天天的什么事儿啊，文档也不写清楚，让我这么晕很好玩吗？睡了睡了" class="headerlink" title="不玩了，一天天的什么事儿啊，文档也不写清楚，让我这么晕很好玩吗？睡了睡了"></a>不玩了，一天天的什么事儿啊，文档也不写清楚，让我这么晕很好玩吗？睡了睡了</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天闲来无事就更新了一下主题，谁知道更新后头像显示不出来了。经过好长好长时间的摸索，终于把这个问题解决了。&lt;br&gt;原来以前的next主题设置头像是设置在url后面的，就像这样&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jyyW
+      
+    
+    </summary>
+    
+    
+      <category term="-bugs" scheme="https://fatelove.gitee.io/categories/bugs/"/>
+    
+    
+      <category term="-hexo" scheme="https://fatelove.gitee.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql入门笔记</title>
+    <link href="https://fatelove.gitee.io/2020/03/05/mysql%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>https://fatelove.gitee.io/2020/03/05/mysql%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-03-05T09:03:37.000Z</published>
+    <updated>2020-03-07T14:33:11.277Z</updated>
+    
+    <content type="html"><![CDATA[<h1><center>hello,everyone!<br>累了困了，听首歌吧</center></h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=150 height=86 src="//music.163.com/outchain/player?type=2&id=1313052233&auto=1&height=66"></iframe><h3 id="将两个表纵向连接-就如同两个集合重叠一样"><a href="#将两个表纵向连接-就如同两个集合重叠一样" class="headerlink" title="% 将两个表纵向连接 就如同两个集合重叠一样"></a>% 将两个表纵向连接 就如同两个集合重叠一样</h3><p>如:<br>select * from userinfo<br>union all<br>select * from userinfo</p><h3 id="查看引擎"><a href="#查看引擎" class="headerlink" title="查看引擎"></a>查看引擎</h3><p>show engines<br>InnoDB MyISAM</p><h3 id="分页"><a href="#分页" class="headerlink" title="分页"></a>分页</h3><p>limit</p><h2 id="1-MySQL查看表结构的SQL命令是什么"><a href="#1-MySQL查看表结构的SQL命令是什么" class="headerlink" title="1.MySQL查看表结构的SQL命令是什么"></a>1.MySQL查看表结构的SQL命令是什么</h2><p>SELECT COLUMN_NAME, COLUMN_TYPE,COLUMN_COMMENT<br>FROM information_schema.COLUMNS<br>WHERE TABLE_NAME = ‘xxx’;</p><h2 id="2-Mysql中的分组函数有哪些，功能是什么"><a href="#2-Mysql中的分组函数有哪些，功能是什么" class="headerlink" title="2.Mysql中的分组函数有哪些，功能是什么"></a>2.Mysql中的分组函数有哪些，功能是什么</h2><p>max() 求一组数据的最大值<br>min()求一组数据的最小值<br>sum()求一组数据的总和(只能对数值类型的列或表达式操作)<br>avg()求一组数据的平均值(只能对数值类型的列或表达式操作)<br>count() 求一组数据的记录数<br>统计数/记录数 除了count（*）之外，其他所有分组函数都会忽略列中的空值进行计算</p><h2 id="3-结束事务的SQL命令是什么"><a href="#3-结束事务的SQL命令是什么" class="headerlink" title="3.结束事务的SQL命令是什么"></a>3.结束事务的SQL命令是什么</h2><p>commit提交事务<br>rollback回滚事务</p><a id="more"></a><h2 id="4-使用SQL语句删除表中存在的列"><a href="#4-使用SQL语句删除表中存在的列" class="headerlink" title="4.使用SQL语句删除表中存在的列"></a>4.使用SQL语句删除表中存在的列</h2><p>alter table table_name<br>drop colunm_name</p><h2 id="5-查询比SMITH薪资高的员工有哪些"><a href="#5-查询比SMITH薪资高的员工有哪些" class="headerlink" title="5.查询比SMITH薪资高的员工有哪些"></a>5.查询比SMITH薪资高的员工有哪些</h2><p>select *<br>from emp<br>where sal&gt;(select sal from emp where ename=’SMITH’)</p><h2 id="6-在视图上可以完成那些操作"><a href="#6-在视图上可以完成那些操作" class="headerlink" title="6.在视图上可以完成那些操作"></a>6.在视图上可以完成那些操作</h2><p>DQL DDL DML<br>在定义视图的子查询中包含分组函数，group by子句和distinct关键字，则不能对视图进行<br>增删改操作。</p><h2 id="7-SQL语句中的限制条件用那个关键字表示"><a href="#7-SQL语句中的限制条件用那个关键字表示" class="headerlink" title="7.SQL语句中的限制条件用那个关键字表示"></a>7.SQL语句中的限制条件用那个关键字表示</h2><p>where</p><h2 id="8-查询奖金不为空的员工信息"><a href="#8-查询奖金不为空的员工信息" class="headerlink" title="8.查询奖金不为空的员工信息"></a>8.查询奖金不为空的员工信息</h2><p>select *<br>from emp<br>where comm is not null</p><h2 id="9-查询每个部门不同工作的最高工资（-）"><a href="#9-查询每个部门不同工作的最高工资（-）" class="headerlink" title="9.查询每个部门不同工作的最高工资（ ）"></a>9.查询每个部门不同工作的最高工资（ ）</h2><p>select max(sal)<br>from emp<br>group by deptno</p><h2 id="10-使用SQL命令删除-撤销-数据库中已经存在的表"><a href="#10-使用SQL命令删除-撤销-数据库中已经存在的表" class="headerlink" title="10.使用SQL命令删除(撤销)数据库中已经存在的表"></a>10.使用SQL命令删除(撤销)数据库中已经存在的表</h2><p>drop table 表名</p><h2 id="11-将工资低于2000元或者低于平均工资的员工的工资上调20"><a href="#11-将工资低于2000元或者低于平均工资的员工的工资上调20" class="headerlink" title="11.将工资低于2000元或者低于平均工资的员工的工资上调20%"></a>11.将工资低于2000元或者低于平均工资的员工的工资上调20%</h2><p>update table emp<br>set sal=sal*1.2<br>where sal&lt;2000 or sal&lt;(select avg(sal) from emp)</p><h2 id="12-返回当前日期的函数是什么"><a href="#12-返回当前日期的函数是什么" class="headerlink" title="12.返回当前日期的函数是什么"></a>12.返回当前日期的函数是什么</h2><p>Now()<br>curtime() curdate()</p><h2 id="13-请说明TRUNCATE和DELETE的区别是什么"><a href="#13-请说明TRUNCATE和DELETE的区别是什么" class="headerlink" title="13.请说明TRUNCATE和DELETE的区别是什么"></a>13.请说明TRUNCATE和DELETE的区别是什么</h2><p>TRUNCATE是DDL，只能删除表中所有的，并且释放表存储空间，不能回滚</p><p>DELETE是DML，可以删除指定记录，不会释放表存储空间，可以使用ROLLBACK回滚</p><h2 id="14-从GROUP-BY分组的结果集中再次进行条件限制的子句是什么"><a href="#14-从GROUP-BY分组的结果集中再次进行条件限制的子句是什么" class="headerlink" title="14.从GROUP BY分组的结果集中再次进行条件限制的子句是什么"></a>14.从GROUP BY分组的结果集中再次进行条件限制的子句是什么</h2><p>Having</p><h2 id="15-说明哪种情况下Mysql会自动创建唯一性索引"><a href="#15-说明哪种情况下Mysql会自动创建唯一性索引" class="headerlink" title="15.说明哪种情况下Mysql会自动创建唯一性索引"></a>15.说明哪种情况下Mysql会自动创建唯一性索引</h2><p>对于主键会自动创建唯一性索引(Primary Key)</p><h2 id="16-使用SQL命令删除视图"><a href="#16-使用SQL命令删除视图" class="headerlink" title="16.使用SQL命令删除视图"></a>16.使用SQL命令删除视图</h2><p>drop view 视图名</p><h2 id="17-查询EMP中名字中有’A’的员工？"><a href="#17-查询EMP中名字中有’A’的员工？" class="headerlink" title="17.查询EMP中名字中有’A’的员工？"></a>17.查询EMP中名字中有’A’的员工？</h2><p>select *<br>from emp<br>where ename like ‘%A%’</p><h2 id="18-查询员工姓名和工作地点，没有员工的部门也要显示出来"><a href="#18-查询员工姓名和工作地点，没有员工的部门也要显示出来" class="headerlink" title="18.查询员工姓名和工作地点，没有员工的部门也要显示出来"></a>18.查询员工姓名和工作地点，没有员工的部门也要显示出来</h2><p>select ename,loc,deptno<br>from emp e RIGHT JOIN dept d<br>on e.deptno=d.deptno</p><p>19.说明主键约束的作用<br>主键约束是唯一性约束和非空约束的组合，添加了主键约束的列中，<br>不能存在重复数据，也不能为空。主键是每一条记录的标识，保证记录的完整性。</p><p>20.有三个表，它们的记录行数分别是10行、2行和6行，<br>三个表进行交叉连接后,会查询出多少条记录<br>交叉连接会产生笛卡尔积，结果为120行记录</p><p>21.查询员工编号，薪资和部门号，按照姓名升序排列<br>select empno,sal,deptno<br>from emp<br>order by ename asc</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;&lt;center&gt;hello,everyone!&lt;br&gt;累了困了，听首歌吧&lt;/center&gt;&lt;/h1&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=150 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1313052233&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;将两个表纵向连接-就如同两个集合重叠一样&quot;&gt;&lt;a href=&quot;#将两个表纵向连接-就如同两个集合重叠一样&quot; class=&quot;headerlink&quot; title=&quot;% 将两个表纵向连接 就如同两个集合重叠一样&quot;&gt;&lt;/a&gt;% 将两个表纵向连接 就如同两个集合重叠一样&lt;/h3&gt;&lt;p&gt;如:&lt;br&gt;select * from userinfo&lt;br&gt;union all&lt;br&gt;select * from userinfo&lt;/p&gt;
+&lt;h3 id=&quot;查看引擎&quot;&gt;&lt;a href=&quot;#查看引擎&quot; class=&quot;headerlink&quot; title=&quot;查看引擎&quot;&gt;&lt;/a&gt;查看引擎&lt;/h3&gt;&lt;p&gt;show engines&lt;br&gt;InnoDB MyISAM&lt;/p&gt;
+&lt;h3 id=&quot;分页&quot;&gt;&lt;a href=&quot;#分页&quot; class=&quot;headerlink&quot; title=&quot;分页&quot;&gt;&lt;/a&gt;分页&lt;/h3&gt;&lt;p&gt;limit&lt;/p&gt;
+&lt;h2 id=&quot;1-MySQL查看表结构的SQL命令是什么&quot;&gt;&lt;a href=&quot;#1-MySQL查看表结构的SQL命令是什么&quot; class=&quot;headerlink&quot; title=&quot;1.MySQL查看表结构的SQL命令是什么&quot;&gt;&lt;/a&gt;1.MySQL查看表结构的SQL命令是什么&lt;/h2&gt;&lt;p&gt;SELECT COLUMN_NAME, COLUMN_TYPE,COLUMN_COMMENT&lt;br&gt;FROM information_schema.COLUMNS&lt;br&gt;WHERE TABLE_NAME = ‘xxx’;&lt;/p&gt;
+&lt;h2 id=&quot;2-Mysql中的分组函数有哪些，功能是什么&quot;&gt;&lt;a href=&quot;#2-Mysql中的分组函数有哪些，功能是什么&quot; class=&quot;headerlink&quot; title=&quot;2.Mysql中的分组函数有哪些，功能是什么&quot;&gt;&lt;/a&gt;2.Mysql中的分组函数有哪些，功能是什么&lt;/h2&gt;&lt;p&gt;max() 求一组数据的最大值&lt;br&gt;min()求一组数据的最小值&lt;br&gt;sum()求一组数据的总和(只能对数值类型的列或表达式操作)&lt;br&gt;avg()求一组数据的平均值(只能对数值类型的列或表达式操作)&lt;br&gt;count() 求一组数据的记录数&lt;br&gt;统计数/记录数 除了count（*）之外，其他所有分组函数都会忽略列中的空值进行计算&lt;/p&gt;
+&lt;h2 id=&quot;3-结束事务的SQL命令是什么&quot;&gt;&lt;a href=&quot;#3-结束事务的SQL命令是什么&quot; class=&quot;headerlink&quot; title=&quot;3.结束事务的SQL命令是什么&quot;&gt;&lt;/a&gt;3.结束事务的SQL命令是什么&lt;/h2&gt;&lt;p&gt;commit提交事务&lt;br&gt;rollback回滚事务&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="MYSQL" scheme="https://fatelove.gitee.io/tags/MYSQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>龙</title>
+    <link href="https://fatelove.gitee.io/2020/03/03/long/"/>
+    <id>https://fatelove.gitee.io/2020/03/03/long/</id>
+    <published>2020-03-03T00:40:29.000Z</published>
+    <updated>2020-03-03T00:45:18.840Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是我的博客"><a href="#这是我的博客" class="headerlink" title="这是我的博客"></a>这是我的博客</h1><h2 id="从今天开始我就是无与伦比的神"><a href="#从今天开始我就是无与伦比的神" class="headerlink" title="从今天开始我就是无与伦比的神"></a>从今天开始我就是无与伦比的神</h2><h3 id="几个小兔崽子还不跪下"><a href="#几个小兔崽子还不跪下" class="headerlink" title="几个小兔崽子还不跪下"></a>几个小兔崽子还不跪下</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">哈哈哈，成功了</span><br></pre></td></tr></table></figure><p><img src="https://p.ananas.chaoxing.com/star3/270_160c/10b159add390dfe81af3c4609e48538c.jpg" alt="ti"><br>这是图片</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;这是我的博客&quot;&gt;&lt;a href=&quot;#这是我的博客&quot; class=&quot;headerlink&quot; title=&quot;这是我的博客&quot;&gt;&lt;/a&gt;这是我的博客&lt;/h1&gt;&lt;h2 id=&quot;从今天开始我就是无与伦比的神&quot;&gt;&lt;a href=&quot;#从今天开始我就是无与伦比的神&quot; class=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hello</title>
+    <link href="https://fatelove.gitee.io/2020/03/02/hello/"/>
+    <id>https://fatelove.gitee.io/2020/03/02/hello/</id>
+    <published>2020-03-02T12:04:33.348Z</published>
+    <updated>2020-03-02T12:41:02.039Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://fatelove.gitee.io/fate.github.io/">https://fatelove.gitee.io/fate.github.io/</a><br>打开项目根目录下的 _config.yml 文件，修改 URL 部分的参数。<br>url 字段的值修改为远程访问连接<br>root 字段的值修改 /+远程仓库的名称</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://fatelove.gitee.io/fate.github.io/&quot;&gt;https://fatelove.gitee.io/fate.github.io/&lt;/a&gt;&lt;br&gt;打开项目根目录下的 _config.yml 文件，修改 URL 部分的参
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://fatelove.gitee.io/2020/03/02/hello-world/"/>
+    <id>https://fatelove.gitee.io/2020/03/02/hello-world/</id>
+    <published>2020-03-02T11:20:32.937Z</published>
+    <updated>2020-03-02T11:20:32.937Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
