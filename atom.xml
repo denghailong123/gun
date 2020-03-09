@@ -3,11 +3,11 @@
   <title>龙哥的博客</title>
   
   
-  <link href="/fate.github.io/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://fatelove.gitee.io/"/>
+  <link href="https://fatelove.gitee.io/fate.github.io/"/>
   <updated>2020-03-08T07:39:17.246Z</updated>
-  <id>https://fatelove.gitee.io/</id>
+  <id>https://fatelove.gitee.io/fate.github.io/</id>
   
   <author>
     <name>邓氏一族少主</name>
@@ -36,7 +36,7 @@
     
     
     
-      <category term="hexo" scheme="https://fatelove.gitee.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://fatelove.gitee.io/fate.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -59,10 +59,10 @@
     </summary>
     
     
-      <category term="-bugs" scheme="https://fatelove.gitee.io/categories/bugs/"/>
+      <category term="-bugs" scheme="https://fatelove.gitee.io/fate.github.io/categories/bugs/"/>
     
     
-      <category term="-hexo" scheme="https://fatelove.gitee.io/tags/hexo/"/>
+      <category term="-hexo" scheme="https://fatelove.gitee.io/fate.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -91,7 +91,7 @@
     
     
     
-      <category term="MYSQL" scheme="https://fatelove.gitee.io/tags/MYSQL/"/>
+      <category term="MYSQL" scheme="https://fatelove.gitee.io/fate.github.io/tags/MYSQL/"/>
     
   </entry>
   
