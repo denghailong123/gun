@@ -294,6 +294,335 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fatelove.gitee.io/fate.github.io/fate.github.io/2020/04/04/git_forsee/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="邓氏一族少主">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3917532533,163531716&fm=26&gp=0.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="龙哥的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/fate.github.io/2020/04/04/git_forsee/" itemprop="url">git使用手册</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-04T16:50:57+08:00">2020-04-04</time>
+            
+
+            
+            
+              
+                
+              
+            
+
+            
+              
+              <span class="post-meta-divider">|</span>
+              
+
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-04-04T17:20:13+08:00">2020-04-04</time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/fate.github.io/categories/technique/" itemprop="url" rel="index"><span itemprop="name">technique</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+
+<h3 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add name&#x2F;&#x2F;添加一个文件</span><br><span class="line">git add .&#x2F;&#x2F;添加所有文件</span><br></pre></td></tr></table></figure>
+
+<h3 id="推到暂存区"><a href="#推到暂存区" class="headerlink" title="推到暂存区"></a>推到暂存区</h3><blockquote>
+<p>git commit -m “说明”</p>
+</blockquote>
+<h3 id="查看暂存区状态"><a href="#查看暂存区状态" class="headerlink" title="查看暂存区状态"></a>查看暂存区状态</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
+<p><img src="https://s1.ax1x.com/2020/04/04/GwTQ4P.png" alt="GwTQ4P.png"></p>
+<h3 id="配置ssh公匙"><a href="#配置ssh公匙" class="headerlink" title="配置ssh公匙"></a>配置ssh公匙</h3><p><a href="https://imgchr.com/i/GwTp7R" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/GwTp7R.md.png" alt="GwTp7R.md.png"></a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa –C “youremail@example.com</span><br><span class="line">之后会在用户文件夹生成.ssh文件夹，把id.rsa.pub文件里面的公匙添加到hithub里</span><br></pre></td></tr></table></figure>
+
+<h4 id="关联本地仓库"><a href="#关联本地仓库" class="headerlink" title="关联本地仓库"></a>关联本地仓库</h4><blockquote>
+<p>git remote add origin <a href="https://github.com/tugenhua0707/testgit.git" target="_blank" rel="noopener">https://github.com/tugenhua0707/testgit.git</a></p>
+</blockquote>
+<h3 id="推到远程仓库"><a href="#推到远程仓库" class="headerlink" title="推到远程仓库"></a>推到远程仓库</h3><p><code>git remote add origin https://github.com/tugenhua0707/testgit.git</code></p>
+<h3 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h3><blockquote>
+<p>git branch “name”</p>
+</blockquote>
+<h3 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h3><blockquote>
+<p>git checkout “name”<br>git branch//查看当前所在分支</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fatelove.gitee.io/fate.github.io/fate.github.io/2020/04/03/javafxLayout/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="邓氏一族少主">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3917532533,163531716&fm=26&gp=0.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="龙哥的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/fate.github.io/2020/04/03/javafxLayout/" itemprop="url">javafx布局</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-03T15:59:24+08:00">2020-04-03</time>
+            
+
+            
+            
+              
+                
+              
+            
+
+            
+              
+              <span class="post-meta-divider">|</span>
+              
+
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-04-04T16:17:53+08:00">2020-04-04</time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="FlowPane布局FlowPane是一个容器。它在一行上排列连续的子组件，并且如果当前行填满了以后，则自动将子组件向下推到下一行"><a href="#FlowPane布局FlowPane是一个容器。它在一行上排列连续的子组件，并且如果当前行填满了以后，则自动将子组件向下推到下一行" class="headerlink" title="FlowPane布局FlowPane是一个容器。它在一行上排列连续的子组件，并且如果当前行填满了以后，则自动将子组件向下推到下一行"></a>FlowPane布局FlowPane是一个容器。它在一行上排列连续的子组件，并且如果当前行填满了以后，则自动将子组件向下推到下一行</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> javafx.application.Application;</span><br><span class="line"><span class="keyword">import</span> javafx.geometry.Insets;</span><br><span class="line"><span class="keyword">import</span> javafx.scene.Scene;</span><br><span class="line"><span class="keyword">import</span> javafx.scene.control.Button;</span><br><span class="line"><span class="keyword">import</span> javafx.scene.control.CheckBox;</span><br><span class="line"><span class="keyword">import</span> javafx.scene.control.RadioButton;</span><br><span class="line"><span class="keyword">import</span> javafx.scene.control.TextField;</span><br><span class="line"><span class="keyword">import</span> javafx.scene.layout.FlowPane;</span><br><span class="line"><span class="keyword">import</span> javafx.stage.Stage;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span> <span class="keyword">extends</span> <span class="title">Application</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">start</span><span class="params">(Stage primaryStage)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        FlowPane root = <span class="keyword">new</span> FlowPane();</span><br><span class="line"></span><br><span class="line">        root.setHgap(<span class="number">10</span>);</span><br><span class="line">        root.setVgap(<span class="number">20</span>);</span><br><span class="line">        root.setPadding(<span class="keyword">new</span> Insets(<span class="number">15</span>,<span class="number">15</span>,<span class="number">15</span>,<span class="number">15</span>));</span><br><span class="line"></span><br><span class="line">        <span class="comment">// Button 1</span></span><br><span class="line">        Button button1= <span class="keyword">new</span> Button(<span class="string">"Button1"</span>);</span><br><span class="line">        root.getChildren().add(button1);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="comment">// Button 2</span></span><br><span class="line">        Button button2 = <span class="keyword">new</span> Button(<span class="string">"Button2"</span>);</span><br><span class="line">        button2.setPrefSize(<span class="number">100</span>, <span class="number">100</span>);</span><br><span class="line">        root.getChildren().add(button2);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// TextField</span></span><br><span class="line">        TextField textField = <span class="keyword">new</span> TextField(<span class="string">"Text Field"</span>);</span><br><span class="line">        textField.setPrefWidth(<span class="number">110</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        root.getChildren().add(textField);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// CheckBox</span></span><br><span class="line">        CheckBox checkBox = <span class="keyword">new</span> CheckBox(<span class="string">"Check Box"</span>);</span><br><span class="line"></span><br><span class="line">        root.getChildren().add(checkBox);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// RadioButton</span></span><br><span class="line">        RadioButton radioButton = <span class="keyword">new</span> RadioButton(<span class="string">"Radio Button"</span>);</span><br><span class="line">        root.getChildren().add(radioButton);</span><br><span class="line"></span><br><span class="line">        Scene scene = <span class="keyword">new</span> Scene(root, <span class="number">550</span>, <span class="number">250</span>);</span><br><span class="line"></span><br><span class="line">        primaryStage.setTitle(<span class="string">"FlowPane Layout Demo"</span>);</span><br><span class="line">        primaryStage.setScene(scene);</span><br><span class="line">        primaryStage.show();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        launch(args);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="HBox是水平布局"><a href="#HBox是水平布局" class="headerlink" title="HBox是水平布局"></a>HBox是水平布局</h3><p>代码样例如下</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">HBox hbox=<span class="keyword">new</span> HBox();</span><br><span class="line"> hbox.setAlignment(Pos.CENTER);<span class="comment">//设置对齐方式</span></span><br><span class="line"> hbox.setPadding(<span class="keyword">new</span> Insets(<span class="number">10</span>));<span class="comment">//设置边距</span></span><br><span class="line"> TextField text=<span class="keyword">new</span> TextField();</span><br><span class="line"> Button select=<span class="keyword">new</span> Button(<span class="string">"选择文件"</span>);</span><br><span class="line"> Button uplode=<span class="keyword">new</span> Button(<span class="string">"上传文件"</span>);</span><br><span class="line"> hbox.getChildren().addAll(text,select,uplode);</span><br><span class="line"> HBox.setHgrow(text, Priority.ALWAYS);</span><br><span class="line">    Scene scene = <span class="keyword">new</span> Scene(hbox,<span class="number">400</span>,<span class="number">400</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="控件大小"><a href="#控件大小" class="headerlink" title="控件大小"></a>控件大小</h3><p><code>Minwidth</code>最小宽度<code>MaxWidth</code>最大宽度<code>PrefWidth</code>最佳宽度<br>几个理论值</p>
+<blockquote>
+<p>Control.USE._COMPUTED_SIZE<br>Control.USE_PREF_SIZE<br>Double.MAX_VALUE</p>
+</blockquote>
+<h3 id="控件的布局"><a href="#控件的布局" class="headerlink" title="控件的布局"></a>控件的布局</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"site-nav-toggle"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"btn-bar"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"btn-bar"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"btn-bar"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://fatelove.gitee.io/fate.github.io/fate.github.io/2020/03/17/meijin/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -488,7 +817,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-09T09:02:24+08:00">2020-03-09</time>
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-09T12:48:39+08:00">2020-03-09</time>
             
           </span>
 
@@ -1360,7 +1689,7 @@
                 
                   <a href="/fate.github.io/archives/%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-count">9</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1375,7 +1704,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -1396,7 +1727,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">4</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
