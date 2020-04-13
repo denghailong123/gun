@@ -267,6 +267,24 @@
       博客全站共： <span class="post-count"></span> 字
     </span>-->
 </div>
+<!--<div>
+<p id="demo" ></p>
+    <button type="button" onclick="grt()">nihao</button>
+    <script>
+        function grt() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("demo").innerHTML = this.responseText;
+              console.log(this.responseText);
+            }
+          };
+          xhttp.open("GET", "https://api.uomg.com/api/comments.163?format=text", true);
+          xhttp.send();
+        }
+        </script>
+</div>
+-->
  </div>
     </header>
 
@@ -332,10 +350,14 @@
                     
                   
                 
-                目前共计 6 个标签
+                  
+                    
+                  
+                
+                目前共计 7 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/fate.github.io/tags/hexo/" style="font-size: 12px; color: #ccc">-hexo</a> <a href="/fate.github.io/tags/MYSQL/" style="font-size: 12px; color: #ccc">MYSQL</a> <a href="/fate.github.io/tags/git/" style="font-size: 12px; color: #ccc">git</a> <a href="/fate.github.io/tags/hexo/" style="font-size: 12px; color: #ccc">hexo</a> <a href="/fate.github.io/tags/javafx/" style="font-size: 12px; color: #ccc">javafx</a> <a href="/fate.github.io/tags/%E7%98%AB%E7%97%AA%E5%9C%A8%E5%AE%B6ing/" style="font-size: 12px; color: #ccc">瘫痪在家ing</a>
+              <a href="/fate.github.io/tags/hexo/" style="font-size: 12px; color: #ccc">-hexo</a> <a href="/fate.github.io/tags/MYSQL/" style="font-size: 12px; color: #ccc">MYSQL</a> <a href="/fate.github.io/tags/git/" style="font-size: 12px; color: #ccc">git</a> <a href="/fate.github.io/tags/hexo/" style="font-size: 12px; color: #ccc">hexo</a> <a href="/fate.github.io/tags/javafx/" style="font-size: 30px; color: #111">javafx</a> <a href="/fate.github.io/tags/%E6%85%8C/" style="font-size: 12px; color: #ccc">慌</a> <a href="/fate.github.io/tags/%E7%98%AB%E7%97%AA%E5%9C%A8%E5%AE%B6ing/" style="font-size: 12px; color: #ccc">瘫痪在家ing</a>
             </div>
           </div>
         
@@ -400,7 +422,7 @@
                 
                   <a href="/fate.github.io/archives/%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -417,7 +439,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -442,7 +466,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

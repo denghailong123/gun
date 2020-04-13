@@ -271,6 +271,24 @@
       博客全站共： <span class="post-count"></span> 字
     </span>-->
 </div>
+<!--<div>
+<p id="demo" ></p>
+    <button type="button" onclick="grt()">nihao</button>
+    <script>
+        function grt() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("demo").innerHTML = this.responseText;
+              console.log(this.responseText);
+            }
+          };
+          xhttp.open("GET", "https://api.uomg.com/api/comments.163?format=text", true);
+          xhttp.send();
+        }
+        </script>
+</div>
+-->
  </div>
     </header>
 
@@ -320,6 +338,11 @@
         
 
         <div class="post-meta">
+        
+
+
+
+<br>
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -454,8 +477,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/fate.github.io/2020/04/03/javafxLayout/" rel="next" title="javafx布局">
-                <i class="fa fa-chevron-left"></i> javafx布局
+              <a href="/fate.github.io/2020/04/03/javafxLayout/" rel="next" title="javafx01">
+                <i class="fa fa-chevron-left"></i> javafx01
               </a>
             
           </div>
@@ -463,6 +486,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/fate.github.io/2020/04/05/null/" rel="prev" title="javafx02 ">
+                javafx02  <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -540,7 +567,7 @@
                 
                   <a href="/fate.github.io/archives/%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -557,7 +584,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -582,7 +611,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
