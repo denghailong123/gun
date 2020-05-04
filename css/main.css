@@ -6,12 +6,16 @@ html {
 }
 body {
   margin: 0;
-  background: url(https://s1.ax1x.com/2020/05/03/JzjXqO.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
 
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+
+// 修改菜单栏透明度
+.header-inner {
+  opacity: 0.8;
 }
 article,
 aside,
@@ -195,7 +199,7 @@ body {
   font-size: 14px;
   line-height: 2;
   color: #555;
-  background: #eee;
+  <!--background: #eee;-->
 }
 @media (max-width: 767px) {
   body {
