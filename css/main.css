@@ -6,11 +6,17 @@ html {
 }
 body {
   margin: 0;
+  background: url(https://s1.ax1x.com/2020/05/03/JzjXqO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 
 }
 .main-inner {
-  background: #fff;
+  
   opacity: 0.8;
+  ackground: #6D87D5
 }
 
 // 修改菜单栏透明度
